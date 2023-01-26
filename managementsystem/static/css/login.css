@@ -1,0 +1,16 @@
+body{
+   background-color:yellow;
+
+}
+input[type="text"], textarea {
+
+  background-color : red;
+
+}
+body {
+
+  margin: auto;
+  width: 50%;
+  border: 5px solid green;
+  padding: 10px;
+}
