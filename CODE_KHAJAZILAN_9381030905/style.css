@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+
+body{
+  font-family:'Montserrat', sans-serif;
+}
+
+.black{
+  color: black;
+}
+
+
+/* navbar */
+
+.navbar{
+  display:flex;
+  background-color: white;
+  align-items : center;
+  padding: 0px 100px;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type:none;
+  display: flex;
+}
+
+.navbar ul li{
+  margin-left: 20px;
+}
+
+.navbar ul li a{
+  position: relative;
+  padding : 20px 20px;
+  font-size: 0.5rem;
+
+
+}
+
+.navbar ul li a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  height: 3px;
+  bottom: 0;
+  right:0;
+  transition: 0.5s;
+
+}
+.navbar ul li a:hover::before{
+  width: 100%;
+  left: 0;
+}
+
+/*sample css*/
+
+.sample{
+  padding: 180px 100px;
+  background-color: black;
+
+}
+
+
+/* Features */
+.features{
+ padding:50px 100px;
+ justify-content:space-between;
+}
+
+.features-list{
+  padding: 50px 100px;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.features div button{
+ display : flex;
+ background-color: black;
+ color : white;
+}
+
+.features h1{
+   font-size:30px;
+}
+
+/* layout */
+
+.layouts{
+  padding:150px 100px;
+  background-color: black;
+}
+
+
+.layout-list{
+ display: flex;
+ background-color: black;
+ justify-content: space-between;
+}
+
+.layout div ul{
+ list-style-type: none;
+ display:flex;
+ justify-content: space-between;
+}
+
+.layout div h1,h5{
+ font-color: black;
+}
+/* end layout*/
+/* ourshop */
+
+.ourshop{
+  padding: 100px 100px;
+}
+
+
+.shopall{
+   display: flex;
+   justify-content: space-between;
+   padding: 50px 100px;
+}
+
+.ourshop h1{
+  font-size: 3rem;
+  margin:0;
+}
+.shop1 img{
+  display: relative;
+}
+
+/* buytheme */
+.buytheme {
+  display:flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: skyblue;
+  align-text: center;
+
+}
+
+.buybut {
+  background-color: white;
+  padding: 5px 14px;
+
+}
+
+/* end */
+
+.end{
+padding: 25px 10px;
+background-color: black;
+
+}
+
+.line ul{
+ display: flex;
+ justify-content: space-between;
+ list-style-type: none;
+}
+
+
+
+
+
+
+
